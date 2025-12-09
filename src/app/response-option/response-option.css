@@ -1,0 +1,28 @@
+.response_container{
+  margin-top: 200px;
+}
+.no{
+  display: block;
+  margin: 0px auto;
+  width: 450px;
+  height: 450px;
+}
+
+.yes{
+  display: block;
+  margin-top: 150px;
+  margin: 0px auto;
+  width: 450px;
+  height: 450px;
+}
+
+
+.goBack button{
+  height: 40px;
+  width: 60px;
+}
+
+.goBack img{
+  height: 20px;
+  width: 35px;
+}

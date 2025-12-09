@@ -1,0 +1,17 @@
+<a routerLink="/first-question" class="goBack"><button><img src="assets/img/left-arrow-7360.svg" alt="go_back"></button></a>
+
+@if(response === `yes`){
+<div class="response_container">
+  <img src="assets/img/YES.png" alt="shrimp_pointer_img" class="yes">
+</div>
+}
+
+@if(response === `no`){
+<div class="response_container">
+  <img src="assets/img/no.png" alt="sure___img" class="no">
+</div>
+}
+
+@if(response === `` || response === null){
+  <p onload="goToHomePage()"></p>
+}

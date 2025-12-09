@@ -1,0 +1,42 @@
+.container{
+  display: block;
+  background-color: white;
+  width: 250px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 250px auto;
+
+}
+
+.container h1{
+  font-family: Georgia;
+  text-align: center;
+}
+
+.container button{
+  display: inline;
+  padding: 5px 10px;
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.container a{
+  text-decoration: none;
+}
+
+
+.goBack button{
+  height: 40px;
+  width: 60px;
+}
+
+.goBack img{
+  height: 20px;
+  width: 35px;
+}
